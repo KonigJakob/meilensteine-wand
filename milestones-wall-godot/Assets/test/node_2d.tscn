@@ -5,4 +5,5 @@
 [node name="Node2D" type="Node2D" unique_id=1199889594]
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=693677122]
+position = Vector2(1672, 826)
 texture = ExtResource("1_bj125")
