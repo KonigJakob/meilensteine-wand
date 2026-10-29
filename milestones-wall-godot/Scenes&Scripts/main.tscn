@@ -1,0 +1,30 @@
+[gd_scene load_steps=3 format=3 uid="uid://cvmjoincqik4"]
+
+[ext_resource type="PackedScene" uid="uid://cbpgl1x60u36g" path="res://Scenes&Scripts/milestones_wall.tscn" id="1_4jti3"]
+[ext_resource type="PackedScene" uid="uid://dnkc6x0enm14l" path="res://Scenes&Scripts/info_screen.tscn" id="2_x3f5f"]
+
+[node name="Main" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_right = 768.0
+offset_bottom = 432.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="MilestonesWall" parent="." instance=ExtResource("1_4jti3")]
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 0.71400005
+anchor_bottom = 0.71400005
+offset_right = 0.76782227
+offset_bottom = 0.43188477
+
+[node name="Screen" parent="." instance=ExtResource("2_x3f5f")]
+visible = false
+layout_mode = 1
+offset_left = 887.0
+offset_top = 192.0
+offset_right = -1354.7778
+offset_bottom = -1069.0

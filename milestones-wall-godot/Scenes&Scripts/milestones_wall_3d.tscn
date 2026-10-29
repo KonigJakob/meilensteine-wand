@@ -1,0 +1,32 @@
+[gd_scene load_steps=4 format=3 uid="uid://cjtlnugnxvhps"]
+
+[ext_resource type="PackedScene" uid="uid://brjfpsj6pvn0e" path="res://Assets/Milestones.fbx" id="1_fn74x"]
+[ext_resource type="PackedScene" uid="uid://cbpgl1x60u36g" path="res://Scenes&Scripts/milestones_wall.tscn" id="2_sath4"]
+[ext_resource type="Texture2D" uid="uid://sl0tp1ran81s" path="res://icon.svg" id="2_x1g43"]
+
+[node name="MilestonesWall_3D" type="Node3D"]
+
+[node name="Milestones" parent="." instance=ExtResource("1_fn74x")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.026520729, 0, 0.0060214996)
+
+[node name="Sprite3D" type="Sprite3D" parent="Milestones"]
+transform = Transform3D(1.6411842, 0, 0, 0, 1.614558, 0, 0, 0, 1, -11.71062, 10.790228, 1.1022949)
+custom_aabb = AABB(0, 3.15, 0, 0, 6.1, 0)
+texture = ExtResource("2_x1g43")
+
+[node name="MilestonesWall" parent="." instance=ExtResource("2_sath4")]
+visible = false
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.49590397, 6.2006836, 18.970612)
+current = true
+
+[node name="SpotLight3D" type="SpotLight3D" parent="."]
+transform = Transform3D(0.9659258, -0.1294095, -0.22414388, 0.25881904, 0.48296288, 0.8365163, 0, -0.86602545, 0.49999997, -11, 17, 10)
+spot_range = 1141.44
+spot_attenuation = -0.07
+
+[node name="SpotLight3D2" type="SpotLight3D" parent="."]
+transform = Transform3D(0.976919, 0.10680506, 0.18499184, -0.21361014, 0.4884594, 0.84603655, -1.491012e-08, -0.8660254, 0.4999999, 7.520275, 17, 10)
+spot_range = 1141.44
+spot_attenuation = -0.07

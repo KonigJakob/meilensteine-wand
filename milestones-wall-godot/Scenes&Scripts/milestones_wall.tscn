@@ -1,0 +1,254 @@
+[gd_scene load_steps=5 format=3 uid="uid://cbpgl1x60u36g"]
+
+[ext_resource type="Script" uid="uid://to70dojwpgek" path="res://Scenes&Scripts/milestones_wall.gd" id="1_25q88"]
+[ext_resource type="Script" uid="uid://du3l0xxrpuytr" path="res://Scenes&Scripts/block_grid.gd" id="1_jm54s"]
+[ext_resource type="Texture2D" uid="uid://d12xqd8071atr" path="res://Assets/Untitled.png" id="1_rqtvv"]
+[ext_resource type="PackedScene" uid="uid://dmj7twbunuocm" path="res://Scenes&Scripts/block.tscn" id="2_jm54s"]
+
+[node name="MilestonesWall" type="Control" node_paths=PackedStringArray("block_grid")]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_25q88")
+block_grid = NodePath("BlockGrid")
+
+[node name="BlockGrid" type="GridContainer" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 1.001
+anchor_bottom = 1.0
+offset_left = 110.0
+offset_top = 72.0
+offset_right = -121.920044
+offset_bottom = -88.0
+theme_override_constants/h_separation = 4
+theme_override_constants/v_separation = 4
+columns = 11
+script = ExtResource("1_jm54s")
+
+[node name="Block" parent="BlockGrid" instance=ExtResource("2_jm54s")]
+layout_mode = 2
+
+[node name="Block2" parent="BlockGrid" instance=ExtResource("2_jm54s")]
+layout_mode = 2
+
+[node name="Block3" parent="BlockGrid" instance=ExtResource("2_jm54s")]
+layout_mode = 2
+is_display_case = true
+block_year = ""
+block_name = ""
+
+[node name="Block4" parent="BlockGrid" instance=ExtResource("2_jm54s")]
+layout_mode = 2
+is_display_case = true
+block_year = ""
+block_name = ""
+
+[node name="Block5" parent="BlockGrid" instance=ExtResource("2_jm54s")]
+layout_mode = 2
+
+[node name="Block6" parent="BlockGrid" instance=ExtResource("2_jm54s")]
+layout_mode = 2
+
+[node name="Block7" parent="BlockGrid" instance=ExtResource("2_jm54s")]
+layout_mode = 2
+
+[node name="Block8" parent="BlockGrid" instance=ExtResource("2_jm54s")]
+layout_mode = 2
+
+[node name="Block9" parent="BlockGrid" instance=ExtResource("2_jm54s")]
+layout_mode = 2
+
+[node name="Block10" parent="BlockGrid" instance=ExtResource("2_jm54s")]
+layout_mode = 2
+
+[node name="Block11" parent="BlockGrid" instance=ExtResource("2_jm54s")]
+layout_mode = 2
+is_display_case = true
+
+[node name="Block12" parent="BlockGrid" instance=ExtResource("2_jm54s")]
+layout_mode = 2
+
+[node name="Block13" parent="BlockGrid" instance=ExtResource("2_jm54s")]
+layout_mode = 2
+
+[node name="Block14" parent="BlockGrid" instance=ExtResource("2_jm54s")]
+layout_mode = 2
+
+[node name="Block15" parent="BlockGrid" instance=ExtResource("2_jm54s")]
+layout_mode = 2
+
+[node name="Block16" parent="BlockGrid" instance=ExtResource("2_jm54s")]
+layout_mode = 2
+
+[node name="Block17" parent="BlockGrid" instance=ExtResource("2_jm54s")]
+layout_mode = 2
+
+[node name="Block18" parent="BlockGrid" instance=ExtResource("2_jm54s")]
+layout_mode = 2
+
+[node name="Block19" parent="BlockGrid" instance=ExtResource("2_jm54s")]
+layout_mode = 2
+
+[node name="Block20" parent="BlockGrid" instance=ExtResource("2_jm54s")]
+layout_mode = 2
+
+[node name="Block21" parent="BlockGrid" instance=ExtResource("2_jm54s")]
+layout_mode = 2
+
+[node name="Block22" parent="BlockGrid" instance=ExtResource("2_jm54s")]
+layout_mode = 2
+
+[node name="Block23" parent="BlockGrid" instance=ExtResource("2_jm54s")]
+layout_mode = 2
+
+[node name="Block24" parent="BlockGrid" instance=ExtResource("2_jm54s")]
+layout_mode = 2
+
+[node name="Block25" parent="BlockGrid" instance=ExtResource("2_jm54s")]
+layout_mode = 2
+
+[node name="Block26" parent="BlockGrid" instance=ExtResource("2_jm54s")]
+layout_mode = 2
+is_display_case = true
+
+[node name="Block27" parent="BlockGrid" instance=ExtResource("2_jm54s")]
+layout_mode = 2
+
+[node name="Block28" parent="BlockGrid" instance=ExtResource("2_jm54s")]
+layout_mode = 2
+
+[node name="Block29" parent="BlockGrid" instance=ExtResource("2_jm54s")]
+layout_mode = 2
+
+[node name="Block30" parent="BlockGrid" instance=ExtResource("2_jm54s")]
+layout_mode = 2
+
+[node name="Block31" parent="BlockGrid" instance=ExtResource("2_jm54s")]
+layout_mode = 2
+
+[node name="Block32" parent="BlockGrid" instance=ExtResource("2_jm54s")]
+layout_mode = 2
+
+[node name="Block33" parent="BlockGrid" instance=ExtResource("2_jm54s")]
+layout_mode = 2
+
+[node name="Block34" parent="BlockGrid" instance=ExtResource("2_jm54s")]
+layout_mode = 2
+
+[node name="Block35" parent="BlockGrid" instance=ExtResource("2_jm54s")]
+layout_mode = 2
+
+[node name="Block36" parent="BlockGrid" instance=ExtResource("2_jm54s")]
+layout_mode = 2
+
+[node name="Block37" parent="BlockGrid" instance=ExtResource("2_jm54s")]
+layout_mode = 2
+
+[node name="Block38" parent="BlockGrid" instance=ExtResource("2_jm54s")]
+layout_mode = 2
+is_display_case = true
+
+[node name="Block39" parent="BlockGrid" instance=ExtResource("2_jm54s")]
+layout_mode = 2
+is_display_case = true
+
+[node name="Block40" parent="BlockGrid" instance=ExtResource("2_jm54s")]
+layout_mode = 2
+
+[node name="Block41" parent="BlockGrid" instance=ExtResource("2_jm54s")]
+layout_mode = 2
+
+[node name="Block42" parent="BlockGrid" instance=ExtResource("2_jm54s")]
+layout_mode = 2
+
+[node name="Block43" parent="BlockGrid" instance=ExtResource("2_jm54s")]
+layout_mode = 2
+
+[node name="Block44" parent="BlockGrid" instance=ExtResource("2_jm54s")]
+layout_mode = 2
+
+[node name="Block45" parent="BlockGrid" instance=ExtResource("2_jm54s")]
+layout_mode = 2
+
+[node name="Block46" parent="BlockGrid" instance=ExtResource("2_jm54s")]
+layout_mode = 2
+
+[node name="Block47" parent="BlockGrid" instance=ExtResource("2_jm54s")]
+layout_mode = 2
+
+[node name="Block48" parent="BlockGrid" instance=ExtResource("2_jm54s")]
+layout_mode = 2
+
+[node name="Block49" parent="BlockGrid" instance=ExtResource("2_jm54s")]
+layout_mode = 2
+
+[node name="Block50" parent="BlockGrid" instance=ExtResource("2_jm54s")]
+layout_mode = 2
+
+[node name="Block51" parent="BlockGrid" instance=ExtResource("2_jm54s")]
+layout_mode = 2
+
+[node name="Block52" parent="BlockGrid" instance=ExtResource("2_jm54s")]
+layout_mode = 2
+
+[node name="Block53" parent="BlockGrid" instance=ExtResource("2_jm54s")]
+layout_mode = 2
+
+[node name="Block54" parent="BlockGrid" instance=ExtResource("2_jm54s")]
+layout_mode = 2
+
+[node name="Block55" parent="BlockGrid" instance=ExtResource("2_jm54s")]
+layout_mode = 2
+
+[node name="Block56" parent="BlockGrid" instance=ExtResource("2_jm54s")]
+layout_mode = 2
+
+[node name="Block57" parent="BlockGrid" instance=ExtResource("2_jm54s")]
+layout_mode = 2
+
+[node name="Block58" parent="BlockGrid" instance=ExtResource("2_jm54s")]
+layout_mode = 2
+
+[node name="Block59" parent="BlockGrid" instance=ExtResource("2_jm54s")]
+layout_mode = 2
+
+[node name="Block60" parent="BlockGrid" instance=ExtResource("2_jm54s")]
+layout_mode = 2
+
+[node name="Block61" parent="BlockGrid" instance=ExtResource("2_jm54s")]
+layout_mode = 2
+
+[node name="Block62" parent="BlockGrid" instance=ExtResource("2_jm54s")]
+layout_mode = 2
+
+[node name="Block63" parent="BlockGrid" instance=ExtResource("2_jm54s")]
+layout_mode = 2
+
+[node name="Block64" parent="BlockGrid" instance=ExtResource("2_jm54s")]
+layout_mode = 2
+
+[node name="Block65" parent="BlockGrid" instance=ExtResource("2_jm54s")]
+layout_mode = 2
+
+[node name="Block66" parent="BlockGrid" instance=ExtResource("2_jm54s")]
+layout_mode = 2
+
+[node name="TextureRect" type="TextureRect" parent="."]
+visible = false
+modulate = Color(1, 1, 1, 0.19215687)
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 1.0
+offset_top = 1.0
+offset_right = 13.0
+offset_bottom = 8.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_rqtvv")
+expand_mode = 2
